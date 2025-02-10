@@ -6,6 +6,7 @@ import Task20 from "./Tasks/task20";
 import Task21 from "./Tasks/task21";
 import Task22 from "./Tasks/task22";
 import Task23 from "./Tasks/task23";
+import Task24 from "./Tasks/task24";
 
 export default function App(){
   return (
@@ -17,6 +18,7 @@ export default function App(){
  //<Task21></Task21>
  //
   //<Task22></Task22>
-  <Task23></Task23>
+  //<Task23></Task23>
+  <Task24></Task24>
 );
 }
