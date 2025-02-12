@@ -31,8 +31,8 @@ const Task30 = () => {
   const handleScrollToIndex = () => {
     const userIndex = parseInt(indexInput, 10)-1;
 
-    if (isNaN(userIndex) || userIndex < 0 || userIndex >= images.length) {
-      Alert.alert('Invalid Index , Try again number (1-10)');
+    if (isNaN(userIndex) || userIndex < 0 || userIndex >= imageList.length) {
+      Alert.alert('Invalid Index , Try again number (1 '+imageList.length+')');
       return;
     }
 
@@ -53,7 +53,6 @@ const Task30 = () => {
           onPress: () => {
             setImages(imageList.filter((item, i) => i !== index));
           },
-          style: "destructive",
         },
       ]
     );
@@ -74,7 +73,7 @@ const Task30 = () => {
         <View style={styles.inputContainer} >
           <TextInput
             style={styles.input}
-            placeholder="Enter index (1-10)"
+            placeholder={'Enter index (1-'+imageList.length+')'}
             keyboardType="numeric"
             value={indexInput}
             onChangeText={setIndexInput}
