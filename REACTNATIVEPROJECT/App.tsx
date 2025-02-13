@@ -15,6 +15,7 @@ import Task29 from "./Tasks/task29";
 import Task30 from "./Tasks/task30";
 import Task32 from "./Tasks/task32";
 import Task33 from "./Tasks/task33";
+import Task34 from "./Tasks/task34";
 
 export default function App(){
   return (
@@ -35,6 +36,7 @@ export default function App(){
 //<Task29></Task29>
 //<Task30></Task30>  // task 30 + task31
 //<Task32></Task32>
-<Task33></Task33>
+//<Task33></Task33>
+<Task34></Task34>
 );
 }
