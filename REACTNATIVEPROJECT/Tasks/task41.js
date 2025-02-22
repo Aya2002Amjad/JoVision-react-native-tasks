@@ -33,7 +33,7 @@ const Task41 = () => {
             } else if (route.name === 'Screen 4') {
               iconName = 'information-circle';
             }
-            return <Icon name={iconName} size={size} color={color} />;
+            return <Icon name={iconName} size={20} color={'#b2ebf2'} />;
           },
         })}
     
