@@ -17,7 +17,7 @@ const Screen2 = () => <ScreenComponent screenNumber={2} />;
 const Screen3 = () => <ScreenComponent screenNumber={3} />;
 const Screen4 = () => <ScreenComponent screenNumber={4} />;
 
-export default function App() {
+const Task41 = () => {
   return (
     <NavigationContainer>
        <Tab.Navigator
@@ -60,3 +60,5 @@ const styles = StyleSheet.create({
        color: '#4dd0e1' 
     },
 });
+
+export default Task41
