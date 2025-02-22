@@ -17,7 +17,7 @@ const Screen2 = () => <ScreenComponent screenNumber={2} />;
 const Screen3 = () => <ScreenComponent screenNumber={3} />;
 const Screen4 = () => <ScreenComponent screenNumber={4} />;
 
-export default function App() {
+const Task41 = () => {
   return (
     <NavigationContainer>
        <Tab.Navigator
@@ -33,7 +33,7 @@ export default function App() {
             } else if (route.name === 'Screen 4') {
               iconName = 'information-circle';
             }
-            return <Icon name={iconName} size={size} color={color} />;
+            return <Icon name={iconName} size={20} color={'#b2ebf2'} />;
           },
         })}
     
@@ -60,3 +60,5 @@ const styles = StyleSheet.create({
        color: '#4dd0e1' 
     },
 });
+
+export default Task41
